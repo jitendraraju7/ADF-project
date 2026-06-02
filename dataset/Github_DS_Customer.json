@@ -1,0 +1,23 @@
+{
+	"name": "Github_DS_Customer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Git_HttpServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "venkat2026training-design/AzureDataEngineering/refs/heads/main/datasets/customers.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

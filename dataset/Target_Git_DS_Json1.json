@@ -1,0 +1,21 @@
+{
+	"name": "Target_Git_DS_Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ABS_TS_Git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "customer.json",
+				"folderPath": "GithubDS",
+				"container": "srcexcel"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

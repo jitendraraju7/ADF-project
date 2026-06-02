@@ -1,0 +1,15 @@
+{
+	"name": "jitfactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "062810ea-cb95-4bb7-aa7a-f6513f76550b",
+		"tenantId": "8a29955c-7ee0-4259-96a6-9197eadcc5ab"
+	}
+}
